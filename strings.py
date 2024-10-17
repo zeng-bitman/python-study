@@ -59,3 +59,16 @@ email ="realbadman@gmail.com"
 print(len(email))
 print(email.count('@'))
 
+#removing whitespaces
+name ="   john doe   "
+v_name =name.strip()
+print(v_name)
+
+#reverse a string
+text ="reverse this"
+print(text[:: -1])
+
+#check substring presence (use count )
+quote ="the best way to predict the future is to create on"
+print(quote.count('future'))
+print(quote.count('the'))
