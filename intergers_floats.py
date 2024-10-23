@@ -16,9 +16,13 @@ print(mult)
 #power(expo)
 power= 10**5
 print(power)
+
+
 #floor
 y=99//2
 print(y)
+
+
 y =90%2
 print(y)
 
