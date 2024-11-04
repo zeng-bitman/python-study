@@ -3,8 +3,12 @@ numbers = list(range(1, 51))
 print(numbers)
 
 #Display numbers divisible by 7 or 5 from the above list
-divisible_by_7_or_5 = [num for num in numbers if num % 7 == 0 or num % 5 == 0]
-print(divisible_by_7_or_5)
+divisible_by_7_or_5 =[]
+for num in numbers:
+    if num % 7 == 0 or num % 5 == 0:
+        divisible_by_7_or_5.append(num)
+
+    print(divisible_by_7_or_5)
 
 #3. Find sum and average of values in the range between 10 to 40
 values = list(range(10, 41))
